@@ -16,7 +16,7 @@
 
 1. 在 GitHub 页面选择 **Code → Download ZIP**。
 2. 解压下载的 ZIP。
-3. 双击 `一键重启第三方输入监听.command`。
+3. 双击 `restart-third-party-input-monitors.command`。
 
 完成以上操作即可执行恢复，不需要手动拖动测试，也不需要安装开发工具。
 
@@ -42,25 +42,19 @@
 
 ## 一键恢复
 
-使用中文脚本：
+使用独立脚本：
 
 ```bash
-chmod +x 一键重启第三方输入监听.command
-./一键重启第三方输入监听.command
+chmod +x restart-third-party-input-monitors.command
+./restart-third-party-input-monitors.command
 ```
 
-也可以在 Finder 中直接双击 `一键重启第三方输入监听.command`。
+也可以在 Finder 中直接双击 `restart-third-party-input-monitors.command`。
 
 只查看将要重启的程序，不执行任何操作：
 
 ```bash
-./一键重启第三方输入监听.command --list
-```
-
-英文脚本行为完全相同：
-
-```bash
-./restart-third-party-input-monitors.command
+./restart-third-party-input-monitors.command --list
 ```
 
 执行重置时**不要求**手动拖动触控板。拖动测试只用于完成后确认是否恢复。

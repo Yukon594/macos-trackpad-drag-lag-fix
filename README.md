@@ -42,7 +42,7 @@ The mouse could remain smooth because mouse and trackpad input do not follow exa
 
 ## One-click recovery
 
-Use the English script:
+Use the standalone script:
 
 ```bash
 chmod +x restart-third-party-input-monitors.command
@@ -55,12 +55,6 @@ To inspect what would be restarted without changing anything:
 
 ```bash
 ./restart-third-party-input-monitors.command --list
-```
-
-The Chinese script has identical behavior:
-
-```bash
-./一键重启第三方输入监听.command
 ```
 
 Manual trackpad dragging is **not required** for the reset. It is only useful afterward to verify whether the symptom is gone.
